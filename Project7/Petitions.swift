@@ -7,6 +7,6 @@
 
 import Foundation
 
-struct Petions: Codable {
+struct Petitions: Codable {
     var results: [Petition]
 }

@@ -17,7 +17,7 @@ class ViewController: UITableViewController {
         super.viewDidLoad()
         // let urlString = "https://api.whitehouse.gov/v1/petitions.json?limit=100"
 //        let urlString = "https://www.hackingwithswift.com/samples/petitions-1.json"
-        let urlString = "https://api.whitehouse.gov/v1/petitions.json?limit=100"
+        let urlString = "https://www.hackingwithswift.com/samples/petitions-1.json"
         
         if let url = URL(string: urlString) {
             if let data = try? Data(contentsOf: url) {
@@ -30,7 +30,7 @@ class ViewController: UITableViewController {
     func parse(json: Data) {
         let decoder = JSONDecoder()
         
-        if let jsonPetions = try? decoder.decode(Petions.self, from: json) {
+        if let jsonPetions = try? decoder.decode(Petitions.self, from: json) {
             petitions = jsonPetions.results
             print(petitions)
             tableView.reloadData()

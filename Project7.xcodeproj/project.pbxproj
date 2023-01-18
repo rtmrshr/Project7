@@ -14,7 +14,7 @@
 		F9CC17422978329F003746E7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F9CC17412978329F003746E7 /* Assets.xcassets */; };
 		F9CC17452978329F003746E7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F9CC17432978329F003746E7 /* LaunchScreen.storyboard */; };
 		F9CC174D297837CA003746E7 /* Petition.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9CC174C297837C9003746E7 /* Petition.swift */; };
-		F9CC174F2978397D003746E7 /* Petions.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9CC174E2978397D003746E7 /* Petions.swift */; };
+		F9CC174F2978397D003746E7 /* Petitions.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9CC174E2978397D003746E7 /* Petitions.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,7 +27,7 @@
 		F9CC17442978329F003746E7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F9CC17462978329F003746E7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F9CC174C297837C9003746E7 /* Petition.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Petition.swift; sourceTree = "<group>"; };
-		F9CC174E2978397D003746E7 /* Petions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Petions.swift; sourceTree = "<group>"; };
+		F9CC174E2978397D003746E7 /* Petitions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Petitions.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,7 +64,7 @@
 				F9CC173A2978329E003746E7 /* SceneDelegate.swift */,
 				F9CC173C2978329E003746E7 /* ViewController.swift */,
 				F9CC174C297837C9003746E7 /* Petition.swift */,
-				F9CC174E2978397D003746E7 /* Petions.swift */,
+				F9CC174E2978397D003746E7 /* Petitions.swift */,
 				F9CC173E2978329E003746E7 /* Main.storyboard */,
 				F9CC17412978329F003746E7 /* Assets.xcassets */,
 				F9CC17432978329F003746E7 /* LaunchScreen.storyboard */,
@@ -146,7 +146,7 @@
 			files = (
 				F9CC173D2978329E003746E7 /* ViewController.swift in Sources */,
 				F9CC174D297837CA003746E7 /* Petition.swift in Sources */,
-				F9CC174F2978397D003746E7 /* Petions.swift in Sources */,
+				F9CC174F2978397D003746E7 /* Petitions.swift in Sources */,
 				F9CC17392978329E003746E7 /* AppDelegate.swift in Sources */,
 				F9CC173B2978329E003746E7 /* SceneDelegate.swift in Sources */,
 			);
